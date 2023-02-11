@@ -1,0 +1,6 @@
+file htaccess dibuat untuk modifikasi konfigurasi dari server apache kita braw dan itu bisa kita lakukan per folder
+
+nulis ulang url lah dll
+
+Options -Indexes = kalau ada user yang masuk ke folder yang tidak ada index maka halangi aksesnya
+rewrite cond untuk menghindari jika ada nama controller yang sama artinya yang diambil dari url 
