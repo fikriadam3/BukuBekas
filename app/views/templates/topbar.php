@@ -40,13 +40,7 @@
 <nav class="navbar navbar-light bg-light static-top">
 	<div class="container">
 		<a class="navbar-brand <?=($data['title'] === "Home") ? "active" : "" ?>" href="<?= BASEURL; ?>">BukuBekas</a>
-		<form action="" class="form-inline">
-			<a href="$" class="btn " style="text-decoration: none;">About</a>
-			<a href="<?= BASEURL; ?>/Books" class="btn mx-2 <?=($data['title'] === "Buku") ? "active" : "" ?>" style="text-decoration: none;">Books</a>
-			<a href="$" class="btn mx-2" style="text-decoration: none;">Catalog</a>
-		</form>
-
-		<form action="" class="form-inline" style="<?php if ($_SESSION['login'] === true) {echo "style='display: none;'";}?>">
+		<form action="" class="form-inline" style="<?php if (!empty($_SESSION)) { echo 'display:none;'; } ?>">
 			<a class="btn btn-light border-primary rounded-pill">Sign Up</a>
 			<a class="btn btn-primary rounded-pill" href="<?= BASEURL; ?>/user/login"
 				style="text-decoration: none;">Sign In</a>
@@ -73,7 +67,7 @@
 <div class="modal modal-xl" tabindex="-1" id="modal-profil">
 	<div class="modal-dialog modal-dialog-scrollable">
 		<div class="modal-content">
-			<div class="modal-header">
+			<div class="modal-header" style="display: none;">
 				<h5 class="modal-title">Profil
 					<?= $_SESSION['level']; ?>
 				</h5>
@@ -176,4 +170,5 @@
 		$('.modal-body #cover').attr("src", '<?= BASEURL; ?>/img/'+c     o ver);
 		$('.modal-footer #no a').attr("href", 'https://api.whatsapp.com/send?phone=62' + no);
 	});
+
 </script>

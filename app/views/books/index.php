@@ -4,7 +4,8 @@
  
 
 <div align="center" class="container" style=" border-radius: 5px;">
-	<h1>Buku Buku mu Dong!</h1>
+
+
 	
 	<!-- Button trigger modal Tambah -->
 	<div class="tombol-tambah" align="left" 
@@ -95,7 +96,7 @@
 </div>
 
 <!-- Modal Box Detail -->
-<div class="modal modal-xl" tabindex="-1" id="modal-detail">
+<div class="modal modal-lg" tabindex="-1" id="modal-detail">
   <div class="modal-dialog modal-dialog-scrollable">
     <div class="modal-content">
       <div class="modal-header">

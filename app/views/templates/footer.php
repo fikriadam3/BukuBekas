@@ -6,14 +6,18 @@
     <div class="row">
       <div class="col-lg-6 h-100 text-center text-lg-start my-auto">
         <ul class="list-inline mb-2">
-          <li class="list-inline-item"><a href="#!">About</a></li>
-          <li class="list-inline-item">⋅</li>
           <li class="list-inline-item"><a href="#!">Contact</a></li>
           <li class="list-inline-item">⋅</li>
           <li class="list-inline-item"><a href="#!">Terms of Use</a></li>
           <li class="list-inline-item">⋅</li>
           <li class="list-inline-item"><a href="#!">Privacy Policy</a></li>
         </ul>
+        <p>
+          Website BukuBekas adalah sebuah platform daring yang menjual buku bekas dengan harga yang terjangkau. Ide
+          dibalik website ini adalah untuk menyediakan buku bagi masyarakat dengan harga yang lebih terjangkau
+          dibandingkan dengan harga buku baru. Hal ini membuat BukuBekas sangat cocok bagi mereka yang ingin membaca
+          banyak buku, namun terkendala oleh budget yang terbatas.
+        </p>
         <p class="text-muted small mb-4 mb-lg-0">
           &copy; Your Website 2022. All Rights Reserved.
         </p>
@@ -34,7 +38,6 @@
     </div>
   </div>
 </footer>
-
 
 </body>
 

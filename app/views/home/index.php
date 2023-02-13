@@ -29,6 +29,8 @@
 					<h1 class="mb-5">
 						Cari buku yang kamu mau disini!
 					</h1>
+					<a href="<?= BASEURL; ?>/Books" class="btn btn-outline-light <?=($data['title'] === "Buku") ? "active" : "" ?>"
+						style="text-decoration: none;">Browse Catalog <i class="bi bi-arrow-right"></i></a>
 				</div>
 			</div>
 		</div>
