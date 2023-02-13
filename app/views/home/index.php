@@ -19,66 +19,48 @@
 	</div>
 
 </div> -->
-<header class="masthead">
+<header class="masthead"
+	style="background-image: url(https://images.theconversation.com/files/45159/original/rptgtpxd-1396254731.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1356&h=668&fit=crop);">
 	<div class="container position-relative">
 		<div class="row justify-content-center">
 			<div class="col-xl-6">
 				<div class="text-center text-white">
 					<!-- Page heading-->
 					<h1 class="mb-5">
-						Generate more leads with a professional landing page!
+						Cari buku yang kamu mau disini!
 					</h1>
-					<!-- Signup form-->
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- * * SB Forms Contact Form * *-->
-					<!-- * * * * * * * * * * * * * * *-->
-					<!-- This form is pre-integrated with SB Forms.-->
-					<!-- To make this form functional, sign up at-->
-					<!-- https://startbootstrap.com/solution/contact-forms-->
-					<!-- to get an API token!-->
-					<form class="form-subscribe" id="contactForm" data-sb-form-api-token="API_TOKEN">
-						<!-- Email address input-->
-						<div class="row">
-							<div class="col">
-								<input class="form-control form-control-lg" id="emailAddress" type="email"
-									placeholder="Email Address" data-sb-validations="required,email" />
-								<div class="invalid-feedback text-white" data-sb-feedback="emailAddress:required">
-									Email Address is required.
-								</div>
-								<div class="invalid-feedback text-white" data-sb-feedback="emailAddress:email">
-									Email Address Email is not valid.
-								</div>
-							</div>
-							<div class="col-auto">
-								<button class="btn btn-primary btn-lg disabled" id="submitButton" type="submit">
-									Submit
-								</button>
-							</div>
-						</div>
-						<!-- Submit success message-->
-						<!---->
-						<!-- This is what your users will see when the form-->
-						<!-- has successfully submitted-->
-						<div class="d-none" id="submitSuccessMessage">
-							<div class="text-center mb-3">
-								<div class="fw-bolder">Form submission successful!</div>
-								<p>To activate this form, sign up at</p>
-								<a class="text-white"
-									href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-							</div>
-						</div>
-						<!-- Submit error message-->
-						<!---->
-						<!-- This is what your users will see when there is-->
-						<!-- an error submitting the form-->
-						<div class="d-none" id="submitErrorMessage">
-							<div class="text-center text-danger mb-3">
-								Error sending message!
-							</div>
-						</div>
-					</form>
 				</div>
 			</div>
 		</div>
 	</div>
 </header>
+<section class="features-icons bg-light text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+					<h3>Cari</h3>
+					<p class="lead mb-0">
+						Cari buku yang kamu mau.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+					<h3>Dapatkan Uang</h3>
+					<p class="lead mb-0">
+						Dapatkan uang dengan menjual buku bekas mu.
+					</p>
+				</div>
+			</div>
+			<div class="col-lg-4">
+				<div class="features-icons-item mx-auto mb-0 mb-lg-3">
+					<h3>Cash on Delivery</h3>
+					<p class="lead mb-0">
+						COD-kan dengan pemilik buku secara langsung.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>

@@ -41,17 +41,32 @@
 	<div class="container">
 		<a class="navbar-brand <?=($data['title'] === "Home") ? "active" : "" ?>" href="<?= BASEURL; ?>">BukuBekas</a>
 		<form action="" class="form-inline">
-			<a href="$" class="btn-primary mx-2 " style="text-decoration: none;">About</a>
-			<a href="<?= BASEURL; ?>/Books" class="btn-primary mx-2 <?=($data['title'] === "Buku") ? "active" : "" ?>" style="text-decoration: none;">Books</a>
-			<a href="$" class="btn-primary mx-2" style="text-decoration: none;">Catalog</a>
+			<a href="$" class="btn " style="text-decoration: none;">About</a>
+			<a href="<?= BASEURL; ?>/Books" class="btn mx-2 <?=($data['title'] === "Buku") ? "active" : "" ?>" style="text-decoration: none;">Books</a>
+			<a href="$" class="btn mx-2" style="text-decoration: none;">Catalog</a>
 		</form>
 
-		<form action="" class="form-inline">
+		<form action="" class="form-inline" style="<?php if ($_SESSION['login'] === true) {echo "style='display: none;'";}?>">
 			<a class="btn btn-light border-primary rounded-pill">Sign Up</a>
 			<a class="btn btn-primary rounded-pill" href="<?= BASEURL; ?>/user/login"
 				style="text-decoration: none;">Sign In</a>
 		</form>
 	</div>
+	<div class="profil d-flex" style="justify-content: center; 
+	  <?php if (empty($_SESSION)) {
+		  echo 'display:none;';
+	  } ?>">
+	  <button class="btn d-flex" data-bs-toggle="modal" data-bs-target="#modal-profil" id="profil">
+		  <?php if (!empty($_SESSION)) { ?>
+			  <p style="color: white; margin-top: 0.6vh; margin-right: 1vw;"><?= $_SESSION['nama']; ?></p>
+
+			<a href="#">
+			  <img src="<?= BASEURL; ?>/img/profile.png" alt=""
+			  style="width: 2vw; margin-right: 6vw;">
+			  </a>
+			<?php } ?>
+	  </button>
+	  </div>
 </nav>
 
 <!-- Modal Box profil -->
