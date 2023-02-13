@@ -15,9 +15,7 @@
         <p>
           Website BukuBekas adalah sebuah platform daring yang menjual buku bekas dengan harga yang terjangkau. Ide
           dibalik website ini adalah untuk menyediakan buku bagi masyarakat dengan harga yang lebih terjangkau
-          dibandingkan dengan harga buku baru. Hal ini membuat BukuBekas sangat cocok bagi mereka yang ingin membaca
-          banyak buku, namun terkendala oleh budget yang terbatas.
-        </p>
+          dibandingkan dengan harga buku baru.
         <p class="text-muted small mb-4 mb-lg-0">
           &copy; Your Website 2022. All Rights Reserved.
         </p>
